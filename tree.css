@@ -1,0 +1,65 @@
+body {
+	text-align: center;
+	width: 900px; 
+	margin: 0 auto;
+	background-color:black;
+}
+h1 {
+	color:red;
+	font-size:20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+div {
+	text-align:center;
+}
+p {
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	font-size:20px;
+	line-height: 13px; 
+	color:red;
+}
+.brown {
+	color:brown;
+}
+
+@keyframes roweven {
+	from {
+		color:red;
+	}
+	to {
+		color:green;
+	}
+}
+
+.rowEven {
+	animation-duration: .5s;
+	animation-name: roweven;
+	animation-iteration-count:infinite;
+}
+
+@keyframes rowodd {
+	from {
+		color:green;
+	}
+	to {
+		color:red;
+	}
+}
+
+.rowOdd {
+	animation-duration: .5s;
+	animation-name: rowodd;
+	animation-iteration-count:infinite;
+}
+
+.star {
+	color:yellow;
+	font-size:30px;
+}
+
+.large {
+	color:#fff;
+	font-size:30px;
+}
